@@ -15,7 +15,8 @@ var mysql = require("../../interfaces/mysql.js");
 
 var check = {
     email: require('../../lib/validity/email'),
-    password: require('../../lib/validity/password')
+    password: require('../../lib/validity/password'),
+    username: require('../../lib/validity/username')
 };
 
 
